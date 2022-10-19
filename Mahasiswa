@@ -1,0 +1,29 @@
+package mahasiswa;
+
+public class Mahasiswa extends Manusia {
+    private String nim;
+    protected int semester=2;
+    private String kelas;
+
+    public Mahasiswa() {
+    }
+    public Mahasiswa(String nim) {
+        this.nim = nim;
+    }
+    public String getNim() {
+        return nim;
+    }
+    public void setNim(String nim) {
+        this.nim = nim;
+    }
+    public String getkelas() {
+        return kelas;
+    }
+    public void setkelas(String kelas) {
+        this.kelas = kelas;
+    }
+    public int getsemester() {
+        return semester;
+    }
+
+}
